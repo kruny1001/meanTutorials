@@ -1,4 +1,9 @@
-# Created by .ignore support plugin (hsz.mobi)
-bower_components
-node_modules
-.idea
+.DS_Store
+.nodemonignore
+.sass-cache/
+npm-debug.log
+node_modules/
+public/lib
+app/tests/coverage/
+.bower-*/
+.idea/

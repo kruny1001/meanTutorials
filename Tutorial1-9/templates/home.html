@@ -1,14 +1,20 @@
-<!--
+
 Directive
 <app-header></app-header>
--->
+
+Calculator Directive
+<cal></cal>
+
+Calculator History Directive
+
 
 <h1>Home Template</h1>
 <div>{{ home.content}}</div>
-<!--
+
+
 Use Json-Server Faker Data
 <div class="container" ng-repeat="person in home.people">
+    <app-header></app-header>
     <h6><strong>Name:</strong>{{person.name}}</h6>
-    <img ng-src="{{person.avatar}}" style="width:100px; height:100%;"/>
+    <img ng-src="{{person.avatar}}" style="width:100px;"/>
 </div>
--->

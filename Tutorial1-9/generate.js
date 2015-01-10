@@ -1,4 +1,4 @@
-/**
+/*
  * Created by kruny1001 on 1/9/15.
  */
 
